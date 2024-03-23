@@ -1,0 +1,99 @@
+
+.body{@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+}
+
+.calc-btn{
+background-color: silver;
+color: black;
+width: 25px;
+height: 45px;
+border: 1px solid gray;
+text-align: center;
+cursor: pointer;
+font-size: 32px;
+font-weight: 100;
+padding-top: 2px;
+margin-top: -49px
+;
+
+}
+.calc-btn:hover{
+  background-color: orange;
+
+}
+.row{
+  display: table;
+  table-layout: fixed;
+  width: 200px;
+
+}
+.column{
+  display: table-cell;
+}
+#calc-zero{
+  width: 93.666667px;
+  border-radius: 0 0 0 7px;
+
+}
+#calc-clear{
+  width:  98.66666667px;
+}
+#calc-decimal{
+  width: 46px;
+  border: 1px solid gray;
+}
+#calc-backspace{
+  margin-left:  100px;
+  width: 49px;
+
+  
+}
+#calc-divide{
+  width: 48px;
+}
+
+  
+
+
+#calc-display-val{
+height: 80px;color: white;
+
+text-align: right;
+border-left: 1px solid gray;
+border-right: 1px solid gray;;
+border-top: 1px solid gray;
+font-size: 48px;
+background-color:#383838 ;
+overflow: hidden;
+white-space: nowrap;
+padding: 12px;
+border-radius: 7px 7px 0 0;
+
+
+
+}
+.calc-btn-operator{
+  background-color: orange;
+  color: white;
+}
+.h1{
+  text-align: center;
+  margin-top: 50px;
+
+}
+#calc-equals{
+  border-radius: 0 0 7px 0;
+width: 46px;
+}
+
+.calc{
+  margin-left: 600px;
+  padding-top: 200px;
+  
+}
+.background{
+ background-color:black;
+  width: 100%;
+  height: 1000px;
+}
